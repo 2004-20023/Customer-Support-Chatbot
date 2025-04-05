@@ -1,0 +1,277 @@
+2025-03-19 14:50:29,440 - INFO - User Query: hi
+2025-03-19 14:50:29,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 14:50:35,605 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 14:51:50,368 - INFO - User Query: how to contact you company
+2025-03-19 14:51:50,465 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 14:51:55,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 14:52:58,734 - INFO - User Query: what are the services available for HRMS
+2025-03-19 14:52:58,859 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 14:53:10,355 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 14:53:27,049 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<IocpProactor.accept.<locals>.accept_coro() done, defined at C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py:564> exception=OSError(22, 'The specified network name is no longer available', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 567, in accept_coro
+    await future
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 556, in finish_accept
+    ov.getresult()
+    ~~~~~~~~~~~~^^
+OSError: [WinError 64] The specified network name is no longer available
+2025-03-19 14:53:27,079 - ERROR - Accept failed on a socket
+socket: <asyncio.TransportSocket fd=116, family=2, type=1, proto=6, laddr=('0.0.0.0', 8000)>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 843, in loop
+    conn, addr = f.result()
+                 ~~~~~~~~^^
+OSError: [WinError 64] The specified network name is no longer available
+2025-03-19 18:17:14,539 - INFO - User Query: hi
+2025-03-19 18:17:16,219 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 18:17:25,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 18:19:15,775 - INFO - User Query: where the headquarters of your company?
+2025-03-19 18:19:15,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 18:19:22,459 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 18:20:39,541 - INFO - User Query: tell me about your company
+2025-03-19 18:20:39,632 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 18:20:40,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 18:30:49,567 - INFO - User Query: where is your company headquarters located
+2025-03-19 18:30:51,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 18:31:06,151 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 18:36:31,708 - INFO - User Query: what is ragubalan designation
+2025-03-19 18:36:33,052 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 18:36:41,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 19:00:56,321 - INFO - User Query: where your company loacted?
+2025-03-19 19:00:56,944 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 19:01:09,168 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 19:02:41,332 - INFO - User Query: capital of tamilnadu
+2025-03-19 19:02:41,380 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 19:02:53,963 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 19:03:57,069 - INFO - User Query: hi
+2025-03-19 19:03:57,150 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-19 19:04:00,834 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-19 23:43:38,580 - ERROR - Exception in callback _ProactorReadPipeTransport._data_received()
+handle: <Handle _ProactorReadPipeTransport._data_received()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 274, in _data_received
+    self._protocol.data_received(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 172, in data_received
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 181, in handle_events
+    self.send_400_response(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 298, in send_400_response
+    output = self.conn.send(event)
+  File "C:\Users\Administrator\PycharmProjects\PythonProject\.venv\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+  File "C:\Users\Administrator\PycharmProjects\PythonProject\.venv\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\PycharmProjects\PythonProject\.venv\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\PycharmProjects\PythonProject\.venv\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\PycharmProjects\PythonProject\.venv\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+    ...<3 lines>...
+    ) from None
+h11._util.LocalProtocolError: can't handle event type Response when role=SERVER and state=MUST_CLOSE
+2025-03-20 09:16:32,816 - INFO - User Query: hi
+2025-03-20 09:16:36,408 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-20 09:16:48,191 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-01 14:54:32,697 - ERROR - Exception in callback _ProactorReadPipeTransport._data_received()
+handle: <Handle _ProactorReadPipeTransport._data_received()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 274, in _data_received
+    self._protocol.data_received(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 172, in data_received
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 181, in handle_events
+    self.send_400_response(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 298, in send_400_response
+    output = self.conn.send(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+    ...<3 lines>...
+    ) from None
+h11._util.LocalProtocolError: can't handle event type Response when role=SERVER and state=MUST_CLOSE
+2025-04-01 17:13:44,174 - INFO - Loading faiss with AVX2 support.
+2025-04-01 17:13:44,194 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-01 17:13:44,200 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-01 17:13:47,836 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-01 17:25:37,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-01 17:27:26,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-01 17:34:34,928 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-01 17:36:21,160 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-01 17:47:36,583 - ERROR - Exception in callback _ProactorReadPipeTransport._data_received()
+handle: <Handle _ProactorReadPipeTransport._data_received()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 274, in _data_received
+    self._protocol.data_received(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 172, in data_received
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 181, in handle_events
+    self.send_400_response(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 298, in send_400_response
+    output = self.conn.send(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+    ...<3 lines>...
+    ) from None
+h11._util.LocalProtocolError: can't handle event type Response when role=SERVER and state=MUST_CLOSE
+2025-04-02 15:56:55,957 - INFO - Loading faiss with AVX2 support.
+2025-04-02 15:56:56,050 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 15:56:56,070 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 16:33:24,930 - INFO - Loading faiss with AVX2 support.
+2025-04-03 16:33:25,139 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 16:33:25,188 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 16:35:23,417 - INFO - Loading faiss with AVX2 support.
+2025-04-03 16:35:23,440 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 16:35:23,446 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 16:39:15,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-03 16:41:04,366 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-03 17:16:03,040 - INFO - Loading faiss with AVX2 support.
+2025-04-03 17:16:03,059 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 17:16:03,064 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 17:17:47,737 - ERROR - Exception in callback _ProactorReadPipeTransport._data_received()
+handle: <Handle _ProactorReadPipeTransport._data_received()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 274, in _data_received
+    self._protocol.data_received(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 172, in data_received
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 181, in handle_events
+    self.send_400_response(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 298, in send_400_response
+    output = self.conn.send(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+    ...<3 lines>...
+    ) from None
+h11._util.LocalProtocolError: can't handle event type Response when role=SERVER and state=MUST_CLOSE
+2025-04-03 17:27:34,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-03 17:33:43,900 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 09:30:52,844 - INFO - Loading faiss with AVX2 support.
+2025-04-04 09:30:52,938 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-04 09:30:52,957 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-04 09:31:02,492 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 09:35:01,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 09:37:22,091 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 09:40:43,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 11:18:44,731 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 11:35:12,650 - INFO - Loading faiss with AVX2 support.
+2025-04-04 11:35:12,699 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-04 11:35:12,719 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-04 11:35:17,201 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 11:37:26,726 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 11:39:33,859 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 11:44:27,398 - INFO - Loading faiss with AVX2 support.
+2025-04-04 11:44:27,446 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-04 11:44:27,464 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-04 11:45:43,028 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 11:48:16,903 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 11:52:03,094 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 11:52:22,756 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:17:25,314 - INFO - Loading faiss with AVX2 support.
+2025-04-04 15:17:25,332 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-04 15:17:25,337 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-04 15:23:21,278 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 15:25:03,169 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:29:32,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 15:31:11,217 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:32:51,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 15:32:55,493 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:34:32,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 15:34:38,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:38:11,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-04-04 15:39:42,135 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-04 15:48:55,484 - ERROR - Exception in callback _ProactorReadPipeTransport._data_received()
+handle: <Handle _ProactorReadPipeTransport._data_received()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 274, in _data_received
+    self._protocol.data_received(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 172, in data_received
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 181, in handle_events
+    self.send_400_response(msg)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 298, in send_400_response
+    output = self.conn.send(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+    ...<3 lines>...
+    ) from None
+h11._util.LocalProtocolError: can't handle event type Response when role=SERVER and state=MUST_CLOSE

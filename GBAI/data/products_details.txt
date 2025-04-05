@@ -1,0 +1,57 @@
+GoodBooks ERP is a cloud-based enterprise resource planning (ERP) solution that helps businesses manage and streamline various operations.
+Below are detailed examples of its key modules:
+
+Automated Invoicing & Payments:
+A retail company can generate invoices automatically when a sale is made.
+Customers receive an email with an e-invoice and a payment link.
+Payments are recorded in real time, reducing manual entry errors.
+
+Multi-Currency Support & Tax Compliance:
+A multinational company dealing in USD, EUR, and GBP can track financials in different currencies.
+The system automatically applies exchange rates and local tax regulations based on customer location.
+
+Inventory Management:
+Real-Time Stock Tracking
+A manufacturing company gets alerts when raw materials are running low.
+The system automatically generates a purchase order to restock inventory.
+
+Batch & Expiry Tracking
+A pharmaceutical company ensures medicine batches are tracked with expiry dates.
+The ERP prevents sales of expired products and notifies the team before expiration.
+
+Sales & Distribution:
+Automated Sales Order Processing
+
+A wholesaler receives an online order, and GoodBooks ERP:
+Confirms stock availability.
+Generates a sales invoice.
+Assigns the order to the nearest warehouse for dispatch.
+
+Route Optimization for Deliveries
+A logistics company uses AI-driven route planning to reduce delivery time.
+The system assigns delivery routes based on traffic conditions and warehouse locations.
+
+Human Resources & Payroll:
+Automated Payroll Processing
+
+Employees’ work hours, bonuses, and deductions are calculated automatically.
+Payslips are generated and sent via email.
+
+Leave & Attendance Management
+
+An employee requests leave through the self-service portal.
+The ERP automatically checks leave balances and sends approval requests to the manager.
+
+Customer Relationship Management (CRM):
+Lead Management & Follow-Ups
+
+Sales teams track customer leads and set automatic reminders for follow-up calls.
+The system suggests personalized discounts based on customer purchase history.
+
+
+Customer Support Ticketing
+
+Customers raise complaints via a chatbot or email.
+The system assigns tickets to the support team and tracks resolution time.
+
+GoodBooks ERP provides automation, real-time insights, and better decision-making across all business functions.

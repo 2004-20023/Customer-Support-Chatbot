@@ -1,0 +1,193 @@
+{
+    "emp_id":{"EP001": {
+        "id": "EP001",
+        "name": "Alice",
+        "role": "CEO",
+        "salary": 15000,
+        "attendance": 25
+    },
+    "EP002": {
+        "id": "EP002",
+        "name": "Bob",
+        "role": "HR",
+        "salary": 8000,
+        "attendance": 24,
+        "leave_status": "Present"
+    },
+    "EP003": {
+        "id": "EP003",
+        "name": "Charlie",
+        "role": "HR",
+        "salary": 7500,
+        "attendance": 22,
+        "leave_status": "Present"
+    },
+    "EP004": {
+        "id": "EP004",
+        "name": "David",
+        "role": "TL",
+        "attendance": 23,
+        "tasks_completed": 5,
+        "ongoing_tasks": 3,
+        "leave_status": "Present",
+
+   "EP005": {
+        "id": "EP005",
+        "name": "Eve",
+        "role": "TL",
+        "attendance": 22,
+        "tasks_completed": 4,
+        "ongoing_tasks": 2,
+        "leave_status": "On Leave"
+    },
+    "EP006": {
+        "id": "EP006",
+        "name": "Frank",
+        "role": "Employee",
+        "salary": 5000,
+        "attendance": 20,
+        "tasks_completed": 3,
+        "ongoing_tasks": 2,
+        "leave_status": "Present"
+    },
+    "EP007": {
+        "id": "EP007",
+        "name": "Grace",
+        "role": "Employee",
+        "salary": 5500,
+        "attendance": 21,
+        "tasks_completed": 4,
+        "ongoing_tasks": 1,
+        "leave_status": "Present"
+    },
+    "EP008": {
+        "id": "EP008",
+        "name": "Hank",
+        "role": "Employee",
+        "salary": 5300,
+        "attendance": 22,
+        "tasks_completed": 2,
+        "ongoing_tasks": 3,
+        "leave_status": "On Leave"
+    },
+    "EP009": {
+        "id": "EP009",
+        "name": "Ivy",
+        "role": "Employee",
+        "salary": 5100,
+        "attendance": 23,
+        "tasks_completed": 5,
+        "ongoing_tasks": 2,
+        "leave_status": "Present"
+    },
+    "EP010": {
+        "id": "EP010",
+        "name": "Jack",
+        "role": "Employee",
+        "salary": 5200,
+        "attendance": 24,
+        "tasks_completed": 3,
+        "ongoing_tasks": 1,
+        "leave_status": "Present"
+    },
+    "EP011": {
+        "id": "EP011",
+        "name": "Kim",
+        "role": "Employee",
+        "salary": 5050,
+        "attendance": 22,
+        "tasks_completed": 3,
+        "ongoing_tasks": 2,
+        "leave_status": "On Leave"
+    },
+    "EP012": {
+        "id": "EP012",
+        "name": "Liam",
+        "role": "Employee",
+        "salary": 5000,
+        "attendance": 21,
+        "tasks_completed": 4,
+        "ongoing_tasks": 2,
+        "leave_status": "Present"
+    },
+    "EP013": {
+        "id": "EP013",
+        "name": "Mia",
+        "role": "Employee",
+        "salary": 5100,
+        "attendance": 20,
+        "tasks_completed": 2,
+        "ongoing_tasks": 3,
+        "leave_status": "Present"
+    },
+    "EP014": {
+        "id": "EP014",
+        "name": "Noah",
+        "role": "Employee",
+        "salary": 5250,
+        "attendance": 23,
+        "tasks_completed": 4,
+        "ongoing_tasks": 1,
+        "leave_status": "Present"
+    },
+    "EP015": {
+        "id": "EP015",
+        "name": "Olivia",
+        "role": "Employee",
+        "salary": 5300,
+        "attendance": 24,
+        "tasks_completed": 5,
+        "ongoing_tasks": 2,
+        "leave_status": "Present"
+    },
+    "EP016": {
+        "id": "EP016",
+        "name": "Paul",
+        "role": "Employee",
+        "salary": 5150,
+        "attendance": 22,
+        "tasks_completed": 3,
+        "ongoing_tasks": 2,
+        "leave_status": "On Leave"
+    },
+    "EP017": {
+        "id": "EP017",
+        "name": "Quinn",
+        "role": "Employee",
+        "salary": 5200,
+        "attendance": 23,
+        "tasks_completed": 2,
+        "ongoing_tasks": 3,
+        "leave_status": "Present"
+    },
+    "EP018": {
+        "id": "EP018",
+        "name": "Ryan",
+        "role": "Employee",
+        "salary": 5300,
+        "attendance": 24,
+        "tasks_completed": 4,
+        "ongoing_tasks": 1,
+        "leave_status": "Present"
+    },
+    "EP019": {
+        "id": "EP019",
+        "name": "Sophia",
+        "role": "Employee",
+        "salary": 5400,
+        "attendance": 22,
+        "tasks_completed": 5,
+        "ongoing_tasks": 2,
+        "leave_status": "Present"
+    },
+    "EP020": {
+        "id": "EP020",
+        "name": "Tom",
+        "role": "Employee",
+        "salary": 5500,
+        "attendance": 23,
+        "tasks_completed": 3,
+        "ongoing_tasks": 1,
+        "leave_status": "On Leave"
+    }
+}}}

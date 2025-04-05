@@ -1,0 +1,35 @@
+## Company Overview
+GoodBooks Technologies is a software company specializing in enterprise solutions. Headquartered in Coimbatore, India, it offers ERP, CRM, and HRMS solutions to streamline business operations.
+
+## Product Offerings
+### 1. GoodBooks ERP
+GoodBooks ERP is a cloud-based enterprise resource planning solution that integrates various business functions, including:
+- Accounting & Finance
+- Inventory Management
+- Sales & Distribution
+- Human Resources & Payroll
+- Customer Relationship Management (CRM)
+
+### 2. GoodBooks CRM
+GoodBooks CRM helps businesses manage customer interactions efficiently. Features include:
+- Lead Management
+- Sales Pipeline Tracking
+- Customer Support Ticketing
+- Marketing Automation
+
+### 3. GoodBooks HRMS
+A human resource management system that automates payroll, attendance, and employee performance tracking.
+
+## Services
+- Custom ERP Development
+- Software Implementation & Support
+- Data Migration & Integration
+- AI-Powered Business Analytics
+
+## Clientele
+GoodBooks Technologies serves clients across industries, including manufacturing, retail, healthcare, and education.
+
+## Contact Information
+Website: www.goodbooks.com
+Email: support@goodbooks.com
+Phone: +91-9876543210
